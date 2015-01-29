@@ -11,6 +11,8 @@ class Funcionario{
 }
 
 class Gerente extends Funcionario{
+	//sobrescrevemos o metodo
+	//da classe mae Funcionario
 	public double getBonus(){
 		return this.salario * 0.30;
 	}
